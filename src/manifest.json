@@ -1,0 +1,13 @@
+{
+  "name": "Shouri Restaurante",
+  "short_name": "Shouri",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/imgs/MARCA.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#cb2228",
+  "theme_color": "#cb2228"
+}

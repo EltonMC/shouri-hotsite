@@ -1,0 +1,48 @@
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content>
+  <ion-row class="middle header">
+    <ion-col>
+      <img class="title" src="assets/imgs/MARCA.png"/>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="middle body">
+    <ion-col text-center (click)="showURL('https://www.ifood.com.br/shourirestaurante')">
+      <img class="ifood" src="assets/imgs/IFOOD.png"/>
+    </ion-col>
+    <ion-col text-center (click)="showURL('https://www.thefork.com.br/restaurante/shouri/353945')">
+      <img class="reserva" src="assets/imgs/RESERVA.png"/>
+    </ion-col>
+    <ion-col text-center (click)="showURL('http://restauranteshouri.com.br/shouri_cardapio.pdf')">
+      <img class="menu" src="assets/imgs/MENU.png"/>
+    </ion-col>
+  </ion-row>
+  
+  <ion-row class="middle footer_1">
+    <ion-col class="text" col-6 text-center>
+      <img class="icon_tel" src="assets/imgs/TEL.png"/> 79 3027 1500 
+    </ion-col>
+  </ion-row>
+  
+  <ion-row class="middle footer_2">
+    <ion-col class="text" col-6 text-center>
+      <img class="icon_adress" src="assets/imgs/ADRESS.png"/> R. José Olivia Nascimento, 114, Jardins, Aracaju/SE
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="middle footer_3">
+    <ion-col col-1 (click)="showURL('https://www.instagram.com/shouri_restaurante')">
+      <img class="insta" src="assets/imgs/INSTA.png"/>
+    </ion-col>
+    <ion-col col-1 text-center (click)="showURL('https://www.facebook.com/shourirestaurante')">
+      <img class="face" src="assets/imgs/FACE.png"/>
+    </ion-col>
+  </ion-row>
+</ion-content>
