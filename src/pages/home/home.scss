@@ -20,7 +20,7 @@ page-home {
         }
 
         .body{
-            width: 100%;
+            width: 60%;
             height: auto;
             text-align: center;
             top: 45%;
@@ -33,10 +33,10 @@ page-home {
 
         .footer_1{
             text-align: center;
-            top: 77.5%;
+            top: 80%;
             ion-col{
                 color: white;
-                font-size: 15px;
+                font-size: 2.5vh;
                 font-weight: 700;
             }
         }
@@ -46,7 +46,7 @@ page-home {
             top: 85%;
             ion-col{
                 color: white;
-                font-size: 13px;
+                font-size: 2vh;
             }
 
         }
@@ -54,8 +54,7 @@ page-home {
         .footer_3{
             top: 95%;
             ion-col{
-                padding: 15px;
-                // padding: 40px;
+                padding: 10px;
             }
         }
 
