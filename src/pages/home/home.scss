@@ -34,6 +34,9 @@ page-home {
         .footer_1{
             text-align: center;
             top: 85%;
+            img{
+                width: 2vh;
+            }
             ion-col{
                 color: white;
                 font-size: 2vh;
@@ -45,6 +48,9 @@ page-home {
             text-align: center;
             top: 88%;
             width: 90%;
+            img{
+                width: 1.3vh;
+            }
             ion-col{
                 color: white;
                 font-size: 1.8vh;
